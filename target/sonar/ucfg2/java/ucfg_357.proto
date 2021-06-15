@@ -1,0 +1,21 @@
+
+?backend.services.impl.VacationService#findAll()Ljava/util/List;ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java ("1*ï
+1ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java 	  (è
+å
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java 	  (-
+%0'backend.repositories.VacationRepository"__id*A*?'
+%backend.services.impl.VacationService"
+vacationRepository∫∑
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java 	  (%
+%1java.util.List"Oorg.springframework.data.jpa.repository.JpaRepository#findAll()Ljava/util/List;*/
+-
+%0'backend.repositories.VacationRepository2	findAll()"¨
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java   (&
+
+%1java.util.ListB)'
+%backend.services.impl.VacationService

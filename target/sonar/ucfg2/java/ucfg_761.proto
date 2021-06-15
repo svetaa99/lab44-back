@@ -1,0 +1,16 @@
+
+Cbackend.dto.DermatologistTermDTO#getDate()Ljava/time/LocalDateTime;å
+ÅC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/DermatologistTermDTO.javaF F("1*Ø
+1å
+ÅC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/DermatologistTermDTO.javaG	 G(Á
+‰
+å
+ÅC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/DermatologistTermDTO.javaG	 G(
+%0java.time.LocalDateTime"__id*.*,"
+ backend.dto.DermatologistTermDTO"
+date"∞
+å
+ÅC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/DermatologistTermDTO.javaG G(
+
+%0java.time.LocalDateTimeB$"
+ backend.dto.DermatologistTermDTO

@@ -1,0 +1,24 @@
+
+Bbackend.controllers.ReservationController#count(Ljava/lang/Long;)Jï
+äC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReservationController.javah h("1*»
+1ï
+äC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReservationController.javai	 i(ê
+ç
+ï
+äC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReservationController.javai	 i(*
+%0$backend.services.impl.PenaltyService"__id*A*?+
+)backend.controllers.ReservationController"
+penaltyServiceÙÒ
+ï
+äC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReservationController.javai	 i(<
+
+%1long"Qbackend.services.impl.PenaltyService#countPenaltiesByPatientId(Ljava/lang/Long;)J*,
+*
+%0$backend.services.impl.PenaltyService*
+
+	patientIdjava.lang.Long2+countPenaltiesByPatientId(Ljava/lang/Long;)"†
+ï
+äC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReservationController.javai i(=
+"":
+	patientIdjava.lang.LongB-+
+)backend.controllers.ReservationController

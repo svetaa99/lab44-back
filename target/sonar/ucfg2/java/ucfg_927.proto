@@ -1,0 +1,227 @@
+
+Xbackend.services.impl.DoctorTermsService#checkIfTakenTerm(Lbackend/models/DoctorTerms;)Z”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java\ \( "16*Î
+13”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javab3 b(<´±
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javabF b(]
+%6java.time.LocalDateTime"?backend.models.DoctorTerms#getFinish()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2getFinish()ïì
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javab3 b(^
+%7boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*&
+$
+	startTimejava.time.LocalDateTime*
+
+%6java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+11
+12*Ê
+14”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javab b(²¯
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javab b(.
+%4java.time.LocalDateTime">backend.models.DoctorTerms#getStart()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2
+getStart()íê
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javab b(/
+%5boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*&
+$
+	startTimejava.time.LocalDateTime*
+
+%4java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+13
+11*à
+16”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java]( ](<¢Ÿ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java]= ](R
+%0java.lang.Long"8backend.models.DoctorTerms#getDoctorId()Ljava/lang/Long;*'
+%
+newTermbackend.models.DoctorTerms2getDoctorId()ÿü
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java]( ](S
+%1java.util.List"_backend.services.impl.DoctorTermsService#findByDoctorIdEquals(Ljava/lang/Long;)Ljava/util/List;*,*
+(backend.services.impl.DoctorTermsService*
+
+%0java.lang.Long2&findByDoctorIdEquals(Ljava/lang/Long;)Ý
+Ú
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java] ](T#
+doctorsTakenTermsjava.util.List"__id*
+
+%1java.util.List®«
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java^ ^(.
+%2java.time.LocalDateTime">backend.models.DoctorTerms#getStart()Ljava/time/LocalDateTime;*'
+%
+newTermbackend.models.DoctorTerms2
+getStart()ç
+ä
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java^ ^(/$
+	startTimejava.time.LocalDateTime"__id*
+
+%2java.time.LocalDateTime°­
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java_ _(0
+%3java.time.LocalDateTime"?backend.models.DoctorTerms#getFinish()Ljava/time/LocalDateTime;*'
+%
+newTermbackend.models.DoctorTerms2getFinish()è
+å
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.java_ _(1%
+
+finishTimejava.time.LocalDateTime"__id*
+
+%3java.time.LocalDateTime*
+2*¼
+1”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javak	 k("Ÿ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javak k(
+""*ü
+2”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaa a(Ó
+Ð
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaa a()
+doctorTermsbackend.models.DoctorTerms"__id*
+""€
+ý
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaa a()
+doctorTermsbackend.models.DoctorTerms"
+__arrayGet*%
+#
+doctorsTakenTermsjava.util.List*
+""*
+14
+1*¼
+3”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javai i("Ÿ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javai i(
+""*£
+4”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javah7 h(Aµ²
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javahI h(`
+%18java.time.LocalDateTime"?backend.models.DoctorTerms#getFinish()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2getFinish()ÆÃ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javah7 h(a
+%19boolean"3java.time.LocalDateTime#equals(Ljava/lang/Object;)Z*'
+%
+
+finishTimejava.time.LocalDateTime* 
+
+%18java.time.LocalDateTime2equals(Ljava/lang/Object;)*
+2
+3* 
+5”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javah h(³°
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javah h(2
+%16java.time.LocalDateTime">backend.models.DoctorTerms#getStart()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2
+getStart()ÅÂ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javah h(3
+%17boolean"3java.time.LocalDateTime#equals(Ljava/lang/Object;)Z*&
+$
+	startTimejava.time.LocalDateTime* 
+
+%16java.time.LocalDateTime2equals(Ljava/lang/Object;)*
+3
+4*¼
+6”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javag g("Ÿ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javag g(
+""*Í
+7”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaf9 f(Cµ²
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javafL f(c
+%14java.time.LocalDateTime"?backend.models.DoctorTerms#getFinish()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2getFinish()ðí
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaf9 f(d
+%15boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*'
+%
+
+finishTimejava.time.LocalDateTime* 
+
+%14java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+5
+6*Ì
+8”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaf f(³°
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaf f(4
+%12java.time.LocalDateTime">backend.models.DoctorTerms#getStart()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2
+getStart()ñî
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaf f(5
+%13boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*&
+$
+	startTimejava.time.LocalDateTime* 
+
+%12java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+5
+7*¼
+9”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javae e("Ÿ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javae e(
+""*Ð
+10”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javad9 d(Cµ²
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javadM d(d
+%10java.time.LocalDateTime"?backend.models.DoctorTerms#getFinish()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2getFinish()òï
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javad9 d(e
+%11boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*'
+%
+
+finishTimejava.time.LocalDateTime* 
+
+%10java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+8
+9*Ê
+11”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javad d(²¯
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javad d(4
+%8java.time.LocalDateTime">backend.models.DoctorTerms#getStart()Ljava/time/LocalDateTime;*+
+)
+doctorTermsbackend.models.DoctorTerms2
+getStart()îë
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javad d(5
+%9boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*'
+%
+
+finishTimejava.time.LocalDateTime*
+
+%8java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+8
+10*½
+12”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javac c("Ÿ
+”
+‰C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javac c(
+"":%
+newTermbackend.models.DoctorTermsB,*
+(backend.services.impl.DoctorTermsService

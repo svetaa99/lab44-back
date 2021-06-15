@@ -1,0 +1,44 @@
+
+Mbackend.services.impl.DoctorTermsService#findAllFutureTerms()Ljava/util/List;î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaI I(,"1*æ
+1î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ	 J(õ
+ò
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ	 J(0
+%0*backend.repositories.DoctorTermsRepository"__id*G*E*
+(backend.services.impl.DoctorTermsService"
+doctorTermsRepository¿Ω
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ	 J((
+%1java.util.List"Oorg.springframework.data.jpa.repository.JpaRepository#findAll()Ljava/util/List;*2
+0
+%0*backend.repositories.DoctorTermsRepository2	findAll()ìê
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ	 J(1
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.List2stream()„‡
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ	 J(j
+%3java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)†
+ù
+ï
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJs J(Ü 
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÓÎ
+ï
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ	 J(á
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"∞
+ï
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaJ J(à
+
+%5java.util.ListB,*
+(backend.services.impl.DoctorTermsService

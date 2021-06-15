@@ -1,0 +1,42 @@
+
+[backend.services.impl.AddressService#save(Lbackend/models/Address;)Lbackend/models/Address;ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java ("startingBlock*Ÿ
+startingBlockê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java (!·
+ﬁ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java (
+
+%2"
+__annotate*
+java.lang.Override*
+
+objbackend.models.AddressÀ
+»
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java ( 
+objbackend.models.Address"__annotation*
+
+%2*
+1*€
+1ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java	 (ã
+à
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java	 (,
+%0&backend.repositories.AddressRepository"__id*?*=&
+$backend.services.impl.AddressService"
+addressRepository˛˚
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java	 ($
+%1backend.models.Address"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*.
+,
+%0&backend.repositories.AddressRepository*
+
+objbackend.models.Address2save(Ljava/lang/Object;)"≥
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/AddressService.java (%
+
+%1backend.models.Address:
+objbackend.models.AddressB(&
+$backend.services.impl.AddressService

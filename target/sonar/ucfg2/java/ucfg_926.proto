@@ -1,0 +1,65 @@
+
+fbackend.services.impl.DoctorTermsService#createNewTerm(Lbackend/models/DoctorTerms;)Ljava/lang/String;î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaN N("startingBlock*÷
+2î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaU U()"π
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaU U(* 
+Not in doctors working hours*ﬂ
+3î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaQ Q(†ù
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaQ Q( 
+%2backend.models.DoctorTerms"gbackend.services.impl.DoctorTermsService#save(Lbackend/models/DoctorTerms;)Lbackend/models/DoctorTerms;*,*
+(backend.services.impl.DoctorTermsService*'
+%
+newTermbackend.models.DoctorTerms2"save(Lbackend/models/DoctorTerms;)"ü
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaR R(
+ok*õ
+startingBlockî
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaN N(1ì
+ê
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaM M(
+%3"
+__annotate*<:
+8org.springframework.transaction.annotation.Transactional*'
+%
+newTermbackend.models.DoctorTerms◊
+‘
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaN) N(0%
+newTermbackend.models.DoctorTerms"__annotation*
+
+%3*
+5*π
+4î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaP P(îë
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaP P($
+%1boolean"]backend.services.impl.DoctorTermsService#checkIfInWorkingHours(Lbackend/models/DoctorTerms;)Z*,*
+(backend.services.impl.DoctorTermsService*'
+%
+newTermbackend.models.DoctorTerms23checkIfInWorkingHours(Lbackend/models/DoctorTerms;)*
+2
+3*Ø
+5î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaO O(äá
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaO O(
+%0boolean"Xbackend.services.impl.DoctorTermsService#checkIfTakenTerm(Lbackend/models/DoctorTerms;)Z*,*
+(backend.services.impl.DoctorTermsService*'
+%
+newTermbackend.models.DoctorTerms2.checkIfTakenTerm(Lbackend/models/DoctorTerms;)*
+4
+1*ƒ
+1î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaX
+ X("ß
+î
+âC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/DoctorTermsService.javaX X(
+
+Taken term:%
+newTermbackend.models.DoctorTermsB,*
+(backend.services.impl.DoctorTermsService

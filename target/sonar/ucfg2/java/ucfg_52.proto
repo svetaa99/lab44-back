@@ -1,0 +1,126 @@
+
+2backend.models.Address#equals(Ljava/lang/Object;)ZÅ
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java{ {("startingBlock*ö
+2É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaá
+ á("é
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaá á(
+""*√
+3É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÜ Ü(…
+∆
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÜ Ü(
+%4java.lang.Long"__id*"* 
+backend.models.Address"
+id–
+Õ
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÜ Ü( 
+%5java.lang.Long"__id*)*'
+
+otherbackend.models.Address"
+idêç
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÜ Ü(!
+%6boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.Long*
+
+%5java.lang.Long2equals(Ljava/lang/Object;)*
+2
+1*ß
+startingBlockÅ
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java{ {("Ã
+…
+Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaz z(
+
+%7"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object∂
+≥
+Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java{ {(!
+objjava.lang.Object"__annotation*
+
+%7*
+
+8
+9
+11*ö
+4É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÖ Ö("é
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÖ Ö(
+""*‰
+5É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÑ Ñ(–
+Õ
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÑ Ñ(
+%3java.lang.Long"__id*)*'
+
+otherbackend.models.Address"
+id*
+4
+1*´
+6É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÇ Ç(À
+»
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÇ Ç( 
+otherbackend.models.Address"__id*
+
+objjava.lang.Object…
+∆
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÉ É(
+%2java.lang.Long"__id*"* 
+backend.models.Address"
+id*
+3
+5*ö
+7É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÅ
+ Å("é
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÅ Å(
+""*Ç
+8É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÄ Ä(ˆÛ
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÄ Ä(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+backend.models.Address2
+getClass()ıÚ
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaÄ Ä("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+6
+7*ñ
+9Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java
+ ("å
+Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java (
+""*ó
+11Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java}
+ }("å
+Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.java} }(
+""*ö
+1É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaà	 à("é
+É
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Address.javaà à(
+"":
+objjava.lang.ObjectB
+backend.models.Address

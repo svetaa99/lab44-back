@@ -1,0 +1,198 @@
+
+pbackend.controllers.VisitController#checkValidVisitId(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¦ ¦(0"startingBlock*Þ
+2‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java±
+ ±("Ä
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java± ±(.
+,
+f'org.springframework.http.ResponseEntity*¸
+3‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java°2 °(3œ™
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java°2 °(?
+%15java.time.LocalDateTime"9backend.models.Visit#getFinish()Ljava/time/LocalDateTime;*
+
+vbackend.models.Visit2getFinish()Œ
+‰
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java°I °(\
+%16java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*"
+java.time.LocalDateTimeèå
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java°2 °(]
+%17boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z* 
+
+%15java.time.LocalDateTime* 
+
+%16java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+2
+1*ü
+startingBlock‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¦0 ¦(L…
+‚
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¥ ¥(;
+%21"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+visitIdjava.lang.LongÉ
+Æ
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¦D ¦(K
+visitIdjava.lang.Long"__annotation*
+
+%21*
+6*´
+4‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java° °(š—
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java° °(
+%12java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*
+
+vbackend.models.Visit2
+getStart()Œ
+‰
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java° °(-
+%13java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*"
+java.time.LocalDateTimeæã
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java° °(.
+%14boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z* 
+
+%12java.time.LocalDateTime* 
+
+%13java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+2
+3*Þ
+5‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¯
+ ¯("Ä
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¯ ¯(.
+,
+f'org.springframework.http.ResponseEntity*æ%
+6‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java§ §(&§
+¤
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java§ §(3?
+%09org.springframework.security.core.context.SecurityContext"‡org.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*C"A
+?org.springframework.security.core.context.SecurityContextHolder¨¥
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java§ §(G6
+%10org.springframework.security.core.Authentication"org.springframework.security.core.context.SecurityContext#getAuthentication()Lorg/springframework/security/core/Authentication;*A
+?
+%09org.springframework.security.core.context.SecurityContext2getAuthentication()©¦
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java§ §(Q
+%2java.lang.String"3java.security.Principal#getName()Ljava/lang/String;*8
+6
+%10org.springframework.security.core.Authentication2	getName()Ò
+Ï
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java§ §(R
+tokenjava.lang.String"__id*
+
+%2java.lang.String€
+ý
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¨ ¨('
+%3!backend.services.impl.UserService"__id*8*6%
+#backend.controllers.VisitController"
+userServiceûø
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¨ ¨(-
+%4backend.models.User"Zbackend.services.impl.UserService#findUserByEmail(Ljava/lang/String;)Lbackend/models/User;*)
+'
+%3!backend.services.impl.UserService*
+
+tokenjava.lang.String2#findUserByEmail(Ljava/lang/String;)Ô
+Ñ
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¨ ¨(.
+ubackend.models.User"__id*
+
+%4backend.models.User‚
+ÿ
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaª ª((
+%5"backend.services.impl.VisitService"__id*9*7%
+#backend.controllers.VisitController"
+visitServiceíê
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaª ª(*
+%6backend.models.Visit"Sbackend.services.impl.VisitService#findById(Ljava/lang/Long;)Lbackend/models/Visit;**
+(
+%5"backend.services.impl.VisitService*
+
+visitIdjava.lang.Long2findById(Ljava/lang/Long;)Ö
+Ó
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaª ª(+
+vbackend.models.Visit"__id*
+
+%6backend.models.VisitÐ
+Í
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¬A ¬(N)
+%7#org.springframework.http.HttpStatus"__id*
+""ïì
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¬! ¬(7-
+%8'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityð
+í
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¬ ¬(O
+%9"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%8'org.springframework.http.ResponseEntity*	
+false*+
+)
+%7#org.springframework.http.HttpStatusü
+ù
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java¬ ¬(P,
+f'org.springframework.http.ResponseEntity"__id*/
+-
+%8'org.springframework.http.ResponseEntityŽ‹
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java® ®(
+%10java.lang.Long"2backend.models.Visit#getDoctorId()Ljava/lang/Long;*
+
+vbackend.models.Visit2getDoctorId()€ý
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java® ®(!
+%11java.lang.Long"+backend.models.User#getId()Ljava/lang/Long;*
+
+ubackend.models.User2getId()*
+4
+5*œ	
+1‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java³$ ³(*Ñ
+Î
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java³, ³(9*
+%18#org.springframework.http.HttpStatus"__id*
+""ðí
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java³ ³(#.
+%19'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityò
+ï
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java³	 ³(:
+%20"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%19'org.springframework.http.ResponseEntity*
+true*,
+*
+%18#org.springframework.http.HttpStatus"Æ
+‘
+„C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java³ ³(;0
+.
+%19'org.springframework.http.ResponseEntity:
+visitIdjava.lang.LongB'%
+#backend.controllers.VisitController

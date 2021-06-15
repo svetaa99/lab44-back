@@ -1,0 +1,115 @@
+
+4backend.models.Vacation#toString()Ljava/lang/String;‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javau u("1*ö
+1‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(É
+Æ
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav v(
+%0java.lang.Long"__id*#*!
+backend.models.Vacation"
+idÕ
+Ò
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(
+%1java.lang.String"__concat*
+Vacation [id=*
+
+%0java.lang.LongÓ
+Ð
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(+
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	, doctor=Ô
+Ñ
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav. v(4
+%3backend.models.Doctor"__id*'*%
+backend.models.Vacation"
+doctorã
+à
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(4
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3backend.models.DoctorÒ
+Ï
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(A
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+, start=Ñ
+Î
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javavD v(I
+%6java.time.LocalDate"__id*&*$
+backend.models.Vacation"
+startá
+Þ
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(I
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.time.LocalDateÓ
+Ð
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(W
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+	, finish=Ò
+Ï
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javavZ v(`
+%9java.time.LocalDate"__id*'*%
+backend.models.Vacation"
+finishâ
+ß
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(`
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.time.LocalDateÕ
+Ò
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 v(n
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+	, status=Ü
+Ù
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javaw w(#
+%12backend.enums.VacationStatus"__id*'*%
+backend.models.Vacation"
+statusí
+ê
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 w(
+%13java.lang.String"__concat*
+
+%11java.lang.String*%
+#
+%12backend.enums.VacationStatusÍ
+Ê
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav	 w(
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+]" 
+‚
+xC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Vacation.javav w(
+
+%14java.lang.StringB
+backend.models.Vacation

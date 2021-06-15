@@ -1,0 +1,116 @@
+
+5backend.models.WorkHours#toString()Ljava/lang/String;ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java_ _("1*—
+1ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(Ë
+È
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java` `(
+%0java.lang.Long"__id*$*"
+backend.models.WorkHours"
+id×
+Ô
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(
+%1java.lang.String"__concat*
+WorkHours [id=*
+
+%0java.lang.LongÔ
+Ñ
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(,
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	, doctor=Ö
+Ó
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`/ `(5
+%3backend.models.Doctor"__id*(*&
+backend.models.WorkHours"
+doctorä
+á
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(5
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3backend.models.DoctorÖ
+Ó
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(E
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, pharmacy=Ú
+×
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`H `(P
+%6backend.models.Pharmacy"__id***(
+backend.models.WorkHours"
+
+pharmacyæ
+ã
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(P
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6backend.models.Pharmacy×
+Ô
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(a
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+, startTime=×
+Ô
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`d `(m
+%9java.time.LocalTime"__id*+*)
+backend.models.WorkHours"
+	startTimeã
+à
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 `(m
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.time.LocalTimeÚ
+×
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 a(
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+, finishTime=Ù
+Ö
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.javaa a("
+%12java.time.LocalTime"__id*,**
+backend.models.WorkHours"
+
+finishTimeå
+â
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 a("
+%13java.lang.String"__concat*
+
+%11java.lang.String*
+
+%12java.time.LocalTimeÎ
+Ë
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java`	 a((
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+]"¡
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.java` a()
+
+%14java.lang.StringB
+backend.models.WorkHours

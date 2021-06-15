@@ -1,0 +1,470 @@
+
+vbackend.controllers.ReportController#saveAppointment(Lbackend/models/Report;)Lorg/springframework/http/ResponseEntity;ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaB0 B(?"startingBlock*ƒ
+2ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java^ ^(	¿
+Ω
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java^ ^(
+%36java.io.PrintStream"__id*
+""ùö
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java^ ^( 
+%37void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%36java.io.PrintStream*	
+Success2println(Ljava/lang/String;)¡
+æ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java_ _((
+%38backend.enums.Status"__id*
+""≈¬
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java_ _()
+%39void"7backend.models.Visit#setStatus(Lbackend/enums/Status;)V*%
+#
+visitReportbackend.models.Visit*
+
+%38backend.enums.Status2!setStatus(Lbackend/enums/Status;)É
+Ä
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java` `()
+%40"backend.services.impl.VisitService"__id*:*8&
+$backend.controllers.ReportController"
+visitService¸˘
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java` `(!
+%41backend.models.Visit"Ubackend.services.impl.VisitService#save(Lbackend/models/Visit;)Lbackend/models/Visit;*+
+)
+%40"backend.services.impl.VisitService*%
+#
+visitReportbackend.models.Visit2save(Lbackend/models/Visit;)Ö
+Ç
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaa a(*
+%42#backend.services.impl.ReportService"__id*;*9&
+$backend.controllers.ReportController"
+reportServiceÅ˛
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaa a( 
+%43backend.models.Report"Xbackend.services.impl.ReportService#save(Lbackend/models/Report;)Lbackend/models/Report;*,
+*
+%42#backend.services.impl.ReportService*$
+"
+	newReportbackend.models.Report2save(Lbackend/models/Report;)£†
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javab b(-
+%44void"^backend.controllers.ReportController#updateMedicineQuantity(Ljava/util/List;Ljava/lang/Long;)V*(&
+$backend.controllers.ReportController*
+
+medDTOjava.util.List*
+
+
+pharmacyIdjava.lang.Long28updateMedicineQuantity(Ljava/util/List;Ljava/lang/Long;)ôñ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javac* c(D
+%45java.lang.Long"3backend.models.Visit#getPatientId()Ljava/lang/Long;*%
+#
+visitReportbackend.models.Visit2getPatientId()‰·
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javac c(M
+%46void"rbackend.controllers.ReportController#createMedicineReservations(Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;)V*(&
+$backend.controllers.ReportController*
+
+
+pharmacyIdjava.lang.Long*
+
+%45java.lang.Long*
+
+medDTOjava.util.List2LcreateMedicineReservations(Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;)*
+1*˝
+3ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java[ [(	¿
+Ω
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java[ [(
+%34java.io.PrintStream"__id*
+""úô
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.java[ [(
+%35void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%34java.io.PrintStream*
+
+Failed2println(Ljava/lang/String;)*
+1*å
+startingBlockê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaB? B(^`
+^
+
+__unknown_file (
+%50"__id*5*3
+"
+	newReportbackend.models.Report"
+informationa
+_
+
+__unknown_file (
+%51"__id*6*4
+"
+	newReportbackend.models.Report"
+medicineDays
+Ì
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaA A(;
+%52"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+%50Î
+Ë
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaB@ B(L
+%53"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%50Î
+Ë
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaBT B(]3
+"
+	newReportbackend.models.Report"
+information"__annotation*
+
+%52*
+
+%53
+Ì
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaA A(;
+%54"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+%51Î
+Ë
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaB@ B(L
+%55"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%51Ï
+È
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaBT B(]4
+"
+	newReportbackend.models.Report"
+medicineDays"__annotation*
+
+%54*
+
+%55*
+10*Ö
+4ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaZ Z(îë
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaZ Z(
+%29java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+medDTOjava.util.List2stream()·ﬁ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaZ Z(D
+%30java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;* 
+
+%29java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)ú
+ô
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaZM Z(`!
+%31java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÏÈ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaZ Z(a
+%32java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%30java.util.stream.Stream*#
+!
+%31java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)€ÿ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaZ Z(h
+
+%33int"java.util.List#size()I*
+
+%32java.util.List2size()*
+2
+3*⁄
+5ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaI I(Ã
+…
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaI I(&
+medDaysbackend.models.MedicineDays"__id*
+""Í
+Á
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaI I(&
+medDaysbackend.models.MedicineDays"
+__arrayGet*
+
+%6java.util.List*
+""*
+4
+8*˙
+6ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaU U(ôñ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaU U(.
+%24java.lang.Long"3backend.models.Visit#getPatientId()Ljava/lang/Long;*%
+#
+visitReportbackend.models.Visit2getPatientId()“
+œ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaU U(/
+	patientIdjava.lang.Long"__id*
+
+%24java.lang.Long°û
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaV5 V(J
+%25java.lang.Long"9backend.models.MedicineDays#getmedicine()Ljava/lang/Long;*(
+&
+medDaysbackend.models.MedicineDays2getmedicine()êç
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaV V(K
+%26boolean"Ubackend.controllers.ReportController#checkAllergic(Ljava/lang/Long;Ljava/lang/Long;)Z*(&
+$backend.controllers.ReportController*
+
+	patientIdjava.lang.Long*
+
+%25java.lang.Long2/checkAllergic(Ljava/lang/Long;Ljava/lang/Long;)´®
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaV V(L
+%27void"0backend.models.MedicineReportDTO#setAllergic(Z)V*2
+0
+newMedRepDTO backend.models.MedicineReportDTO*
+
+%26boolean2setAllergic(Z)Ü
+É
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaX X(
+%28boolean"
+__arrayAdd*
+
+medDTOjava.util.List*: *2
+0
+newMedRepDTO backend.models.MedicineReportDTO*
+5*°
+7ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaP P('à
+Ö
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaP P('1
+%16*backend.services.IPharmacyMedicinesService"__id*7*5&
+$backend.controllers.ReportController"
+	pmService¬ø
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaP_ P(y
+%17backend.models.Medicine"Gbackend.models.MedicineReportDTO#getMedicine()Lbackend/models/Medicine;*2
+0
+newMedRepDTO backend.models.MedicineReportDTO2getMedicine()äá
+ë
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaP_ P(Å
+%18java.lang.Long"/backend.models.Medicine#getId()Ljava/lang/Long;* 
+
+%17backend.models.Medicine2getId()‚
+ﬂ
+í
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaPÉ P(ù
+%19long"%java.lang.System#currentTimeMillis()J*"
+java.lang.System©¶
+ë
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaP P(û'
+%20 backend.models.PharmacyMedicines"öbackend.services.IPharmacyMedicinesService#findByPharmacyIdAndMedicineIdAndTodaysDate(Ljava/lang/Long;Ljava/lang/Long;J)Lbackend/models/PharmacyMedicines;*3
+1
+%16*backend.services.IPharmacyMedicinesService*
+
+
+pharmacyIdjava.lang.Long*
+
+%18java.lang.Long*
+
+%19long2MfindByPharmacyIdAndMedicineIdAndTodaysDate(Ljava/lang/Long;Ljava/lang/Long;J)Û
+
+ë
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaP P(ü)
+newPm backend.models.PharmacyMedicines"__id*)
+'
+%20 backend.models.PharmacyMedicinesêç
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaQ Q(
+%21void"/backend.models.PharmacyMedicines#incRequests()V*+
+)
+newPm backend.models.PharmacyMedicines2incRequests()à
+Ö
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaR R(1
+%22*backend.services.IPharmacyMedicinesService"__id*7*5&
+$backend.controllers.ReportController"
+	pmServiceÅ˛
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaR R('
+%23 backend.models.PharmacyMedicines"Dbackend.services.IService#save(Ljava/lang/Object;)Ljava/lang/Object;*3
+1
+%22*backend.services.IPharmacyMedicinesService*+
+)
+newPm backend.models.PharmacyMedicines2save(Ljava/lang/Object;)*
+6*ø
+8ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJ: J(IÑ
+Å
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJ: J(I'
+%7!backend.services.IMedicineService"__id*=*;&
+$backend.controllers.ReportController"
+medicineService†ù
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJS J(h
+%8java.lang.Long"9backend.models.MedicineDays#getmedicine()Ljava/lang/Long;*(
+&
+medDaysbackend.models.MedicineDays2getmedicine()‹Ÿ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJ: J(i
+%9backend.models.Medicine"Fbackend.services.IService#findById(Ljava/lang/Long;)Ljava/lang/Object;*)
+'
+%7!backend.services.IMedicineService*
+
+%8java.lang.Long2findById(Ljava/lang/Long;)·ﬁ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJ( J(9'
+%10 backend.models.MedicineReportDTO" backend.models.MedicineReportDTOÆ
+´
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJ$ J(j
+%11"Cbackend.models.MedicineReportDTO#<init>(Lbackend/models/Medicine;)V*)
+'
+%10 backend.models.MedicineReportDTO*
+
+%9backend.models.Medicine˘
+ˆ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaJ J(k0
+newMedRepDTO backend.models.MedicineReportDTO"__id*)
+'
+%10 backend.models.MedicineReportDTO°û
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaL8 L(M
+%12java.lang.Long"9backend.models.MedicineDays#getmedicine()Ljava/lang/Long;*(
+&
+medDaysbackend.models.MedicineDays2getmedicine()ìê
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaL L(N
+%13boolean"Vbackend.controllers.ReportController#checkAvailable(Ljava/lang/Long;Ljava/lang/Long;)Z*(&
+$backend.controllers.ReportController*
+
+
+pharmacyIdjava.lang.Long*
+
+%12java.lang.Long20checkAvailable(Ljava/lang/Long;Ljava/lang/Long;)≠™
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaL L(O
+%14void"1backend.models.MedicineReportDTO#setAvailable(Z)V*2
+0
+newMedRepDTO backend.models.MedicineReportDTO*
+
+%13boolean2setAvailable(Z)öó
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaN N(!
+%15boolean"/backend.models.MedicineReportDTO#isAvailable()Z*2
+0
+newMedRepDTO backend.models.MedicineReportDTO2isAvailable()*
+6
+7*º
+9ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaI I('ûõ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaI I(9
+%6java.util.List"7backend.models.Report#getMedicineDays()Ljava/util/List;*$
+"
+	newReportbackend.models.Report2getMedicineDays()*
+5*Ï
+10ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaD# D(E∆√
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaD' D(C
+%0java.util.ArrayList"java.util.ArrayListÿ
+’
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaD# D(E
+%1"java.util.ArrayList#<init>()V*
+
+%0java.util.ArrayList”
+–
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaD D(F
+medDTOjava.util.List"__id*
+
+%0java.util.ArrayListÇ
+ˇ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaF F("(
+%2"backend.services.impl.VisitService"__id*:*8&
+$backend.controllers.ReportController"
+visitServiceîë
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaF, F(B
+%3java.lang.Long"2backend.models.Report#getVisitId()Ljava/lang/Long;*$
+"
+	newReportbackend.models.Report2getVisitId()Á‰
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaF F(C
+%4backend.models.Visit"Sbackend.services.impl.VisitService#findById(Ljava/lang/Long;)Lbackend/models/Visit;**
+(
+%2"backend.services.impl.VisitService*
+
+%3java.lang.Long2findById(Ljava/lang/Long;)ﬂ
+‹
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaF F(D#
+visitReportbackend.models.Visit"__id*
+
+%4backend.models.Visitñì
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaG G(-
+%5java.lang.Long"2backend.models.Visit#getPharmacy()Ljava/lang/Long;*%
+#
+visitReportbackend.models.Visit2getPharmacy()“
+œ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaG G(.
+
+pharmacyIdjava.lang.Long"__id*
+
+%5java.lang.Long*
+9*©	
+1ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javae5 e(;–
+Õ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javae= e(J*
+%47#org.springframework.http.HttpStatus"__id*
+""ÔÏ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javae e(4.
+%48'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÉ
+Ä
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javae	 e(K
+%49"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%48'org.springframework.http.ResponseEntity*
+
+medDTOjava.util.List*,
+*
+%47#org.springframework.http.HttpStatus"≈
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javae e(L0
+.
+%48'org.springframework.http.ResponseEntity:"
+	newReportbackend.models.ReportB(&
+$backend.controllers.ReportController

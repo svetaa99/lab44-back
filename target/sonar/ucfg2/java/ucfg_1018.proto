@@ -1,0 +1,46 @@
+
+7backend.dto.VisitDTO#compareTo(Lbackend/dto/VisitDTO;)I
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaU U("startingBlock*›
+startingBlock
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaU U(!Ë
+È
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaT T(
+
+%3"
+__annotate*
+java.lang.Override*
+
+obackend.dto.VisitDTOµ
+²
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaU U( 
+obackend.dto.VisitDTO"__annotation*
+
+%3*
+1*ò
+1
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaV	 V(ƒ€
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaV	 V(
+%0java.time.LocalDateTime"8backend.dto.VisitDTO#getStart()Ljava/time/LocalDateTime;*
+backend.dto.VisitDTO2
+getStart()†ƒ
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaV# V(/
+%1java.time.LocalDateTime"8backend.dto.VisitDTO#getStart()Ljava/time/LocalDateTime;*
+
+obackend.dto.VisitDTO2
+getStart()ÐÍ
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaV	 V(0	
+%2int"Jjava.time.LocalDateTime#compareTo(Ljava/time/chrono/ChronoLocalDateTime;)I*
+
+%0java.time.LocalDateTime*
+
+%1java.time.LocalDateTime21compareTo(Ljava/time/chrono/ChronoLocalDateTime;)"‰
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaV V(1
+"":
+obackend.dto.VisitDTOB
+backend.dto.VisitDTO

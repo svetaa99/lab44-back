@@ -1,0 +1,190 @@
+
+äbackend.controllers.MedicineController#getSubstituteForMedicine(Ljava/lang/Long;Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaÜ* Ü(B"1*ÑE
+1î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaá" á(1ä
+á
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaá" á(1'
+%0!backend.services.IMedicineService"__id*?*=(
+&backend.controllers.MedicineController"
+medicineService˝˙
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaá" á(N
+%1java.util.List"\backend.services.IMedicineService#getSubstituteForMedicine(Ljava/lang/Long;)Ljava/util/List;*)
+'
+%0!backend.services.IMedicineService*
+
+idjava.lang.Long2*getSubstituteForMedicine(Ljava/lang/Long;)⁄
+◊
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaá á(O 
+substituteListjava.util.List"__id*
+
+%1java.util.Listà
+Ö
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaä ä((
+%2"backend.services.impl.VisitService"__id*<*:(
+&backend.controllers.MedicineController"
+visitServiceÌ
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaä ä(*
+%3backend.models.Visit"Sbackend.services.impl.VisitService#findById(Ljava/lang/Long;)Lbackend/models/Visit;**
+(
+%2"backend.services.impl.VisitService*
+
+visitIdjava.lang.Long2findById(Ljava/lang/Long;)Ÿ
+÷
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaä ä(+
+vbackend.models.Visit"__id*
+
+%3backend.models.Visitå
+â
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaã ã(*
+%4$backend.services.impl.PatientService"__id*>*<(
+&backend.controllers.MedicineController"
+patientServiceíè
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaã& ã(6
+%5java.lang.Long"3backend.models.Visit#getPatientId()Ljava/lang/Long;*
+
+vbackend.models.Visit2getPatientId()Û
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaã ã(7
+%6backend.models.Patient"Wbackend.services.impl.PatientService#findById(Ljava/lang/Long;)Lbackend/models/Patient;*,
+*
+%4$backend.services.impl.PatientService*
+
+%5java.lang.Long2findById(Ljava/lang/Long;)›
+⁄
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaã ã(8
+pbackend.models.Patient"__id*
+
+%6backend.models.Patientñì
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaå å(-
+%7java.util.List"5backend.models.Patient#getAllergies()Ljava/util/List;*
+
+pbackend.models.Patient2getAllergies()’
+“
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaå å(.
+	allergiesjava.util.List"__id*
+
+%7java.util.Listì
+ê
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaé& é(50
+%8*backend.services.IPharmacyMedicinesService"__id*?*=(
+&backend.controllers.MedicineController"
+pharmMedServiceêç
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaéP é(_
+%9java.lang.Long"2backend.models.Visit#getPharmacy()Ljava/lang/Long;*
+
+vbackend.models.Visit2getPharmacy()íè
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaé& é(`
+%10java.util.List"fbackend.services.IPharmacyMedicinesService#findAvailableByPharmacyId(Ljava/lang/Long;)Ljava/util/List;*2
+0
+%8*backend.services.IPharmacyMedicinesService*
+
+%9java.lang.Long2+findAvailableByPharmacyId(Ljava/lang/Long;)÷
+”
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaé é(a
+	availablejava.util.List"__id*
+
+%10java.util.ListÀ»
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaè) è(<
+%11java.util.ArrayList"java.util.ArrayListﬁ
+€
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaè% è(>
+%12"java.util.ArrayList#<init>()V*
+
+%11java.util.ArrayList„
+‡
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaè è(?#
+availableMedicinejava.util.List"__id*
+
+%11java.util.ArrayList≤Ø
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaê ê(@
+%13void":java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V*
+
+	availablejava.util.List*
+""2&forEach(Ljava/util/function/Consumer;)†ù
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaì î(
+%14java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*"
+ 
+substituteListjava.util.List2stream()Â‚
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaì ï(O
+%15java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;* 
+
+%14java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)†
+ù
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javañ ñ( !
+%16java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÌ
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaì ñ(!
+%17java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%15java.util.stream.Stream*#
+!
+%16java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Ÿ
+÷
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaí ñ("
+filteredListjava.util.List"__id*
+
+%17java.util.Listﬂ
+‹
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaò ò(A
+%18java.util.List"^backend.controllers.MedicineController#createMedicineDTOList(Ljava/util/List;)Ljava/util/List;**(
+&backend.controllers.MedicineController* 
+
+filteredListjava.util.List‘
+—
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaò ò(B
+dtoListjava.util.List"__id*
+
+%18java.util.List‘
+—
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaö8 ö(E*
+%19#org.springframework.http.HttpStatus"__id*
+""Û
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaö ö(..
+%20'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityà
+Ö
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaö	 ö(F
+%21"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%20'org.springframework.http.ResponseEntity*
+
+dtoListjava.util.List*,
+*
+%19#org.springframework.http.HttpStatus"…
+î
+áC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/MedicineController.javaö ö(G0
+.
+%20'org.springframework.http.ResponseEntity:
+idjava.lang.Long:
+visitIdjava.lang.LongB*(
+&backend.controllers.MedicineController

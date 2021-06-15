@@ -1,0 +1,374 @@
+
+tbackend.controllers.VisitController#makeAppointment(Lbackend/models/Visit;)Lorg/springframework/http/ResponseEntity;è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java_ _(."startingBlock*ß	
+2è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javap& p(Aœ
+Ã
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javapC p(P*
+%21#org.springframework.http.HttpStatus"__id*
+""ÓÎ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javap p(%.
+%22'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÖ
+Ç
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javap p(Q
+%23"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%22'org.springframework.http.ResponseEntity*
+Not in your working hours*,
+*
+%21#org.springframework.http.HttpStatus"ƒ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javap p(R0
+.
+%22'org.springframework.http.ResponseEntity*Ï
+3è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javao o(Ã
+…
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javao o(,
+%20boolean"Rbackend.controllers.VisitController#checkIfInWorkingHours(Lbackend/models/Visit;)Z*'%
+#backend.controllers.VisitController*(
+&
+newReservationbackend.models.Visit*
+2
+1*¸
+startingBlockè
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java_. _(Q_
+]
+
+__unknown_file (
+%36"__id*4*2
+&
+newReservationbackend.models.Visit"
+finish^
+\
+
+__unknown_file (
+%37"__id*3*1
+&
+newReservationbackend.models.Visit"
+startÔ
+Ï
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java^ ^(;
+%38"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+%36Í
+Á
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java_/ _(;
+%39"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%36È
+Ê
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java_B _(P2
+&
+newReservationbackend.models.Visit"
+finish"__annotation*
+
+%38*
+
+%39Ô
+Ï
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java^ ^(;
+%40"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+%37Í
+Á
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java_/ _(;
+%41"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%37Ë
+Â
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java_B _(P1
+&
+newReservationbackend.models.Visit"
+start"__annotation*
+
+%40*
+
+%41*
+8*Ω	
+4è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javam& m(Wœ
+Ã
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javamY m(f*
+%17#org.springframework.http.HttpStatus"__id*
+""ÓÎ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javam m(%.
+%18'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityõ
+ò
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javam m(g
+%19"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%18'org.springframework.http.ResponseEntity*31
+/You already have scheduled meeting at that time*,
+*
+%17#org.springframework.http.HttpStatus"ƒ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javam m(h0
+.
+%18'org.springframework.http.ResponseEntity*©
+5è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javal l(ôñ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javal% l(A
+%15java.lang.Long"2backend.models.Visit#getDoctorId()Ljava/lang/Long;*(
+&
+newReservationbackend.models.Visit2getDoctorId()Ì
+Í
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javal l(B
+%16boolean"Zbackend.controllers.VisitController#checkTermDerm(Lbackend/models/Visit;Ljava/lang/Long;)Z*'%
+#backend.controllers.VisitController*(
+&
+newReservationbackend.models.Visit*
+
+%15java.lang.Long*
+3
+4*°	
+6è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaj& j(;œ
+Ã
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaj= j(J*
+%12#org.springframework.http.HttpStatus"__id*
+""ÓÎ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaj j(%.
+%13'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityˇ
+¸
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaj j(K
+%14"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%13'org.springframework.http.ResponseEntity*
+Patient unavailable*,
+*
+%12#org.springframework.http.HttpStatus"ƒ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaj j(L0
+.
+%13'org.springframework.http.ResponseEntity*Â
+7è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javai i(≈
+¬
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javai i(%
+%11boolean"Kbackend.controllers.VisitController#checkTermTaken(Lbackend/models/Visit;)Z*'%
+#backend.controllers.VisitController*(
+&
+newReservationbackend.models.Visit*
+5
+6*‹!
+8è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java` `(&•
+¢
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java` `(3?
+%09org.springframework.security.core.context.SecurityContext"áorg.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*C"A
+?org.springframework.security.core.context.SecurityContextHolder¶£
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java` `(G6
+%10org.springframework.security.core.Authentication"org.springframework.security.core.context.SecurityContext#getAuthentication()Lorg/springframework/security/core/Authentication;*A
+?
+%09org.springframework.security.core.context.SecurityContext2getAuthentication()ß§
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java` `(Q
+%2java.lang.String"3java.security.Principal#getName()Ljava/lang/String;*8
+6
+%10org.springframework.security.core.Authentication2	getName()–
+Õ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.java` `(R
+tokenjava.lang.String"__id*
+
+%2java.lang.String˛
+˚
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaa a('
+%3!backend.services.impl.UserService"__id*8*6%
+#backend.controllers.VisitController"
+userService˘ˆ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaa a(-
+%4backend.models.User"Zbackend.services.impl.UserService#findUserByEmail(Ljava/lang/String;)Lbackend/models/User;*)
+'
+%3!backend.services.impl.UserService*
+
+tokenjava.lang.String2#findUserByEmail(Ljava/lang/String;)“
+œ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaa a(.
+ubackend.models.User"__id*
+
+%4backend.models.User˝˙
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javac c(
+%5java.lang.Long"+backend.models.User#getId()Ljava/lang/Long;*
+
+ubackend.models.User2getId()œ
+Ã
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javac c(
+doctorIdjava.lang.Long"__id*
+
+%5java.lang.LongΩ∫
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javae e(&
+
+%6void"3backend.models.Visit#setDoctorId(Ljava/lang/Long;)V*(
+&
+newReservationbackend.models.Visit*
+
+doctorIdjava.lang.Long2setDoctorId(Ljava/lang/Long;)ø
+º
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaf f(*
+%7backend.enums.Status"__id*
+""≈¬
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaf f(+
+
+%8void"7backend.models.Visit#setStatus(Lbackend/enums/Status;)V*(
+&
+newReservationbackend.models.Visit*
+
+%7backend.enums.Status2!setStatus(Lbackend/enums/Status;)Ä
+˝
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javah h((
+%9"backend.services.impl.VisitService"__id*9*7%
+#backend.controllers.VisitController"
+visitService˝˙
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javah h(&
+%10backend.models.Visit"Ubackend.services.impl.VisitService#save(Lbackend/models/Visit;)Lbackend/models/Visit;**
+(
+%9"backend.services.impl.VisitService*(
+&
+newReservationbackend.models.Visit2save(Lbackend/models/Visit;)*
+7
+1*°%
+1è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javas s(Ö
+Ç
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javas s(+
+%24$backend.services.impl.PatientService"__id*;*9%
+#backend.controllers.VisitController"
+patientServiceõò
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javas& s(C
+%25java.lang.Long"3backend.models.Visit#getPatientId()Ljava/lang/Long;*(
+&
+newReservationbackend.models.Visit2getPatientId()ÒÓ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javas s(D
+%26backend.models.Patient"Wbackend.services.impl.PatientService#findById(Ljava/lang/Long;)Lbackend/models/Patient;*-
++
+%24$backend.services.impl.PatientService*
+
+%25java.lang.Long2findById(Ljava/lang/Long;)Ÿ
+÷
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javas s(E
+pbackend.models.Patient"__id*
+
+%26backend.models.Patientéã
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javat t(%
+%27java.lang.String"3backend.models.Patient#getEmail()Ljava/lang/String;*
+
+pbackend.models.Patient2
+getEmail()Ÿ
+÷
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javat t(&!
+patientsEmailjava.lang.String"__id*
+
+%27java.lang.String•¢
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javav v(/
+%28java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*(
+&
+newReservationbackend.models.Visit2
+getStart()›
+⁄
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javav v(0
+ldtjava.time.LocalDateTime"__id* 
+
+%28java.time.LocalDateTimeåâ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javax6 x(A
+%29java.lang.String"2backend.models.Patient#getName()Ljava/lang/String;*
+
+pbackend.models.Patient2	getName()Ω∫
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javax x(B
+%30void"âbackend.controllers.VisitController#notifyPatientViaEmail(Ljava/lang/String;Ljava/lang/Long;Ljava/time/LocalDateTime;Ljava/lang/String;)V*'%
+#backend.controllers.VisitController*#
+!
+patientsEmailjava.lang.String*
+
+doctorIdjava.lang.Long* 
+
+ldtjava.time.LocalDateTime*
+
+%29java.lang.String2dnotifyPatientViaEmail(Ljava/lang/String;Ljava/lang/Long;Ljava/time/LocalDateTime;Ljava/lang/String;)Ë
+Â
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaz$ z(%
+%31com.google.gson.Gson"__id*.*,%
+#backend.controllers.VisitController"
+g÷”
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaz$ z(<
+%32java.lang.String"Acom.google.gson.Gson#toJson(Ljava/lang/Object;)Ljava/lang/String;*
+
+%31com.google.gson.Gson*(
+&
+newReservationbackend.models.Visit2toJson(Ljava/lang/Object;)œ
+Ã
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaz> z(K*
+%33#org.springframework.http.HttpStatus"__id*
+""ÓÎ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaz z(#.
+%34'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÅ
+˛
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaz	 z(L
+%35"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%34'org.springframework.http.ResponseEntity*
+
+%32java.lang.String*,
+*
+%33#org.springframework.http.HttpStatus"ƒ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/VisitController.javaz z(M0
+.
+%34'org.springframework.http.ResponseEntity:&
+newReservationbackend.models.VisitB'%
+#backend.controllers.VisitController

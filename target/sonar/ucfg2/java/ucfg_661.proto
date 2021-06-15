@@ -1,0 +1,17 @@
+
+:backend.models.DoctorTerms#getPharmacyId()Ljava/lang/Long;…
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaC C("1*ˆ
+1…
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaD	 D(×
+Ô
+…
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaD	 D(
+%0java.lang.Long"__id*.*,
+backend.models.DoctorTerms"
+
+pharmacyId" 
+…
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaD D(
+
+%0java.lang.LongB
+backend.models.DoctorTerms

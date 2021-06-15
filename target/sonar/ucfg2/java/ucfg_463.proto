@@ -1,0 +1,74 @@
+
+1backend.dto.EventDTO#toString()Ljava/lang/String;
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javaf f("1*•
+1
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(Æ
+Ã
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag g(!
+%0java.lang.String"__id*"* 
+backend.dto.EventDTO"
+nameÕ
+Ò
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(!
+%1java.lang.String"__concat*
+EventDTO [name=*
+
+%0java.lang.StringÎ
+Ë
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(.
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+
+, start=Î
+Ë
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag1 g(6
+%3java.time.LocalDateTime"__id*#*!
+backend.dto.EventDTO"
+startá
+Þ
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(6
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.time.LocalDateTimeÌ
+É
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(A
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+, end=Ì
+É
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javagD g(G
+%6java.time.LocalDateTime"__id*!*
+backend.dto.EventDTO"
+endá
+Þ
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(G
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.time.LocalDateTimeÇ
+Ä
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag	 g(M
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+]"›
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/EventDTO.javag g(N
+
+%8java.lang.StringB
+backend.dto.EventDTO

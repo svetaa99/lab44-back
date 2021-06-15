@@ -1,0 +1,68 @@
+
+.backend.controllers.PenaltyController#count()J‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java& &("1*ß
+1‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java' '(&§
+¤
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java' '(3?
+%09org.springframework.security.core.context.SecurityContext"‡org.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*C"A
+?org.springframework.security.core.context.SecurityContextHolder¨¥
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java' '(G6
+%10org.springframework.security.core.Authentication"org.springframework.security.core.context.SecurityContext#getAuthentication()Lorg/springframework/security/core/Authentication;*A
+?
+%09org.springframework.security.core.context.SecurityContext2getAuthentication()©¦
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java' '(Q
+%2java.lang.String"3java.security.Principal#getName()Ljava/lang/String;*8
+6
+%10org.springframework.security.core.Authentication2	getName()Ò
+Ï
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java' '(R
+tokenjava.lang.String"__id*
+
+%2java.lang.String‚
+ÿ
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java( (('
+%3!backend.services.impl.UserService"__id*:*8'
+%backend.controllers.PenaltyController"
+userServiceûø
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java( ((-
+%4backend.models.User"Zbackend.services.impl.UserService#findUserByEmail(Ljava/lang/String;)Lbackend/models/User;*)
+'
+%3!backend.services.impl.UserService*
+
+tokenjava.lang.String2#findUserByEmail(Ljava/lang/String;)Ô
+Ñ
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java( ((.
+ubackend.models.User"__id*
+
+%4backend.models.Userˆ
+…
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java)	 )(*
+%5$backend.services.impl.PenaltyService"__id*=*;'
+%backend.controllers.PenaltyController"
+penaltyServiceÿü
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java)2 )(;
+%6java.lang.Long"+backend.models.User#getId()Ljava/lang/Long;*
+
+ubackend.models.User2getId()éæ
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java)	 )(<
+
+%7long"Qbackend.services.impl.PenaltyService#countPenaltiesByPatientId(Ljava/lang/Long;)J*,
+*
+%5$backend.services.impl.PenaltyService*
+
+%6java.lang.Long2+countPenaltiesByPatientId(Ljava/lang/Long;)"œ
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/PenaltyController.java) )(=
+""B)'
+%backend.controllers.PenaltyController

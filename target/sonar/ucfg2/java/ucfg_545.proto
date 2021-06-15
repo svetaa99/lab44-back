@@ -1,0 +1,104 @@
+
+`backend.services.impl.MedicineService#getSubstituteForMedicine(Ljava/lang/Long;)Ljava/util/List;‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java. .(/"startingBlock*Ì
+startingBlock‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java./ .(8Ú
+×
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java- -(
+
+%10"
+__annotate*
+java.lang.Override*
+
+idjava.lang.LongÄ
+Á
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java.5 .(7
+idjava.lang.Long"__annotation*
+
+%10*
+1*÷
+1‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java/ /(À
+½
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java/ /(
+%0java.io.PrintStream"__id*
+""ã
+à
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java/ /((
+%1java.lang.String"__concat*
+dobijen id: *
+
+idjava.lang.Long©¦
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java/ /()
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+
+%1java.lang.String2println(Ljava/lang/String;)
+Œ
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java0 0('-
+%3'backend.repositories.MedicineRepository"__id*A*?'
+%backend.services.impl.MedicineService"
+medicineRepositoryýú
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java0 0(4
+%4java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*/
+-
+%3'backend.repositories.MedicineRepository*
+
+idjava.lang.Long2findById(Ljava/lang/Object;)…‚
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java0 0(:
+%5backend.models.Medicine"*java.util.Optional#get()Ljava/lang/Object;*
+
+%4java.util.Optional2get()â
+ß
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java0 0(;"
+currentbackend.models.Medicine"__id*
+
+%5backend.models.Medicine
+Œ
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java1 1(,-
+%6'backend.repositories.MedicineRepository"__id*A*?'
+%backend.services.impl.MedicineService"
+medicineRepository«¨
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java18 1(I!
+%7backend.enums.MedicineTypes">backend.models.Medicine#getType()Lbackend/enums/MedicineTypes;*$
+"
+currentbackend.models.Medicine2	getType()‘Ž
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java1 1(J
+%8java.util.List"abackend.repositories.MedicineRepository#findByType(Lbackend/enums/MedicineTypes;)Ljava/util/List;*/
+-
+%6'backend.repositories.MedicineRepository*#
+!
+%7backend.enums.MedicineTypes2)findByType(Lbackend/enums/MedicineTypes;)Ï
+Ì
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java1 1(K
+retValjava.util.List"__id*
+
+%8java.util.List°­
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java2 2(
+%9boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+retValjava.util.List*$
+"
+currentbackend.models.Medicine2remove(Ljava/lang/Object;)"°
+‘
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/MedicineService.java3 3(
+
+retValjava.util.List:
+idjava.lang.LongB)'
+%backend.services.impl.MedicineService

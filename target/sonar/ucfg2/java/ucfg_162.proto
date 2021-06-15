@@ -1,0 +1,160 @@
+
+1backend.models.Visit#toString()Ljava/lang/String;Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaó ó("1*›%
+1Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(≈
+¬
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò ò(
+%0java.lang.Long"__id* *
+backend.models.Visit"
+id—
+Œ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(
+%1java.lang.String"__concat*
+
+Visit [id=*
+
+%0java.lang.Long’
+“
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(+
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, patientId=Ã
+…
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò. ò(7
+%3java.lang.Long"__id*'*%
+backend.models.Visit"
+	patientId€
+ÿ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(7
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Long‘
+—
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(G
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+, doctorId=À
+»
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaòJ ò(R
+%6java.lang.Long"__id*&*$
+backend.models.Visit"
+
+doctorId€
+ÿ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(R
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.Long—
+Œ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(_
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+
+, start=—
+Œ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaòb ò(g
+%9java.time.LocalDateTime"__id*#*!
+backend.models.Visit"
+startÂ
+‚
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ò(g
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.time.LocalDateTime‘
+—
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+	, finish=”
+–
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaô ô(
+%12java.time.LocalDateTime"__id*$*"
+backend.models.Visit"
+finishÁ
+‰
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(
+%13java.lang.String"__concat*
+
+%11java.lang.String* 
+
+%12java.time.LocalDateTime÷
+”
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(*
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+, pharmacy=Ã
+…
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaô- ô(5
+%15java.lang.Long"__id*&*$
+backend.models.Visit"
+
+pharmacyﬁ
+€
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(5
+%16java.lang.String"__concat*
+
+%14java.lang.String*
+
+%15java.lang.Long‘
+—
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(C
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+	, status=–
+Õ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaôF ô(L
+%18backend.enums.Status"__id*$*"
+backend.models.Visit"
+status‰
+·
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(L
+%19java.lang.String"__concat*
+
+%17java.lang.String*
+
+%18backend.enums.StatusÃ
+…
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò	 ô(R
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+]"ü
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaò ô(S
+
+%20java.lang.StringB
+backend.models.Visit

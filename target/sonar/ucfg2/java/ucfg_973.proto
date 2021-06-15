@@ -1,0 +1,49 @@
+
+Ibackend.controllers.RatingsController#calculateRatings(Ljava/util/List;)D“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java³ ³( "7*Ü
+2“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java¼ ¼(É
+Æ
+“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java¼ ¼( 
+ratingbackend.models.Ratings"__id*
+""ì
+é
+“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java¼ ¼( 
+ratingbackend.models.Ratings"
+__arrayGet*
+
+ratingsjava.util.List*
+""*
+3
+1*—
+3“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java½ ½(öó
+“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java½ ½(	
+%1int"!backend.models.Ratings#getMark()I*"
+ 
+ratingbackend.models.Ratings2	getMark()*
+2*º
+6“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java· ·("ž
+“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java¸ ¸(
+""*…
+7“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java´ ´(áÞ
+“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.java´ ´(	
+%0int"java.util.List#size()I*
+
+ratingsjava.util.List2size()*
+2
+6*º
+1“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.javaÀ À("ž
+“
+†C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/RatingsController.javaÁ Á(
+"":
+ratingsjava.util.ListB)'
+%backend.controllers.RatingsController

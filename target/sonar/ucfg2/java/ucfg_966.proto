@@ -1,0 +1,17 @@
+
+=backend.models.WorkHours#getFinishTime()Ljava/time/LocalTime;ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.javaV V("1*Š
+1ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.javaW	 W(Ø
+Õ
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.javaW	 W(
+%0java.time.LocalTime"__id*,**
+backend.models.WorkHours"
+
+finishTime"£
+ƒ
+yC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/WorkHours.javaW W(
+
+%0java.time.LocalTimeB
+backend.models.WorkHours

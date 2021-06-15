@@ -1,0 +1,223 @@
+
+Ybackend.services.impl.VisitService#checkTermDerm(Lbackend/models/Visit;Ljava/lang/Long;)Zê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÉ É("16*∞
+13ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaâ- â(6ûõ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaâ@ â(Q
+%5java.time.LocalDateTime"9backend.models.Visit#getFinish()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2getFinish()ÎË
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaâ- â(R
+%6boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*&
+$
+	startTimejava.time.LocalDateTime*
+
+%5java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+11
+12*¨
+14ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaâ â(úô
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaâ â((
+%3java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2
+getStart()ÈÊ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaâ â()
+%4boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*&
+$
+	startTimejava.time.LocalDateTime*
+
+%3java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+13
+11*ë
+16ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÑ$ Ñ(8ıÚ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÑ$ Ñ(B
+%0java.util.List"Ybackend.services.impl.VisitService#findByDoctorIdEquals(Ljava/lang/Long;)Ljava/util/List;*&$
+"backend.services.impl.VisitService*
+
+doctorIdjava.lang.Long2&findByDoctorIdEquals(Ljava/lang/Long;)€
+ÿ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÑ Ñ(C%
+doctorsAppointmentsjava.util.List"__id*
+
+%0java.util.List•¢
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÖ Ö(5
+%1java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*(
+&
+newReservationbackend.models.Visit2
+getStart()„
+‡
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÖ Ö(6$
+	startTimejava.time.LocalDateTime"__id*
+
+%1java.time.LocalDateTimeß§
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÜ Ü(7
+%2java.time.LocalDateTime"9backend.models.Visit#getFinish()Ljava/time/LocalDateTime;*(
+&
+newReservationbackend.models.Visit2getFinish()‰
+·
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaÜ Ü(8%
+
+finishTimejava.time.LocalDateTime"__id*
+
+%2java.time.LocalDateTime*
+2*¥
+1ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaì	 ì("õ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaì ì(
+""*⁄
+2ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaà à(√
+¿
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaà à(
+visitbackend.models.Visit"__id*
+""Ú
+Ô
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaà à(
+visitbackend.models.Visit"
+__arrayGet*'
+%
+doctorsAppointmentsjava.util.List*
+""*
+14
+1*¥
+3ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaê ê("õ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaê ê(
+""*Ö
+4ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaè1 è(;üú
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaèC è(T
+%17java.time.LocalDateTime"9backend.models.Visit#getFinish()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2getFinish()¬ø
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaè1 è(U
+%18boolean"3java.time.LocalDateTime#equals(Ljava/lang/Object;)Z*'
+%
+
+finishTimejava.time.LocalDateTime* 
+
+%17java.time.LocalDateTime2equals(Ljava/lang/Object;)*
+2
+3*Ç
+5ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaè è(ùö
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaè è(,
+%15java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2
+getStart()¡æ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaè è(-
+%16boolean"3java.time.LocalDateTime#equals(Ljava/lang/Object;)Z*&
+$
+	startTimejava.time.LocalDateTime* 
+
+%15java.time.LocalDateTime2equals(Ljava/lang/Object;)*
+3
+4*¥
+6ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaé é("õ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaé é(
+""*Ø
+7ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaç3 ç(=üú
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaçF ç(W
+%13java.time.LocalDateTime"9backend.models.Visit#getFinish()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2getFinish()ÏÈ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaç3 ç(X
+%14boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*'
+%
+
+finishTimejava.time.LocalDateTime* 
+
+%13java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+5
+6*Æ
+8ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaç ç(ùö
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaç ç(.
+%11java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2
+getStart()ÌÍ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaç ç(/
+%12boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*&
+$
+	startTimejava.time.LocalDateTime* 
+
+%11java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+5
+7*¥
+9ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaå å("õ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaå å(
+""*∞
+10ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaã3 ã(=ûõ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaãG ã(X
+%9java.time.LocalDateTime"9backend.models.Visit#getFinish()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2getFinish()ÌÍ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaã3 ã(Y
+%10boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*'
+%
+
+finishTimejava.time.LocalDateTime*
+
+%9java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)*
+8
+9*¨
+11ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaã ã(úô
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaã ã(.
+%7java.time.LocalDateTime"8backend.models.Visit#getStart()Ljava/time/LocalDateTime;*
+
+visitbackend.models.Visit2
+getStart()ÍÁ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaã ã(/
+%8boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*'
+%
+
+finishTimejava.time.LocalDateTime*
+
+%7java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+8
+10*µ
+12ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaä ä("õ
+ê
+ÉC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.javaä ä(
+"":&
+newReservationbackend.models.Visit:
+doctorIdjava.lang.LongB&$
+"backend.services.impl.VisitService

@@ -1,0 +1,16 @@
+
+8backend.dto.VisitDTO#getStart()Ljava/time/LocalDateTime;
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaA A("1*ú
+1
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaB	 B(Î
+Ë
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaB	 B(
+%0java.time.LocalDateTime"__id*#*!
+backend.dto.VisitDTO"
+start"¢
+
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/dto/VisitDTO.javaB B(
+
+%0java.time.LocalDateTimeB
+backend.dto.VisitDTO

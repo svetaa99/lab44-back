@@ -1,0 +1,104 @@
+
+0backend.models.Visit#equals(Ljava/lang/Object;)ZÅ
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaà à("startingBlock*ñ
+2Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaí
+ í("å
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaí í(
+""*∑
+3Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaë ë(≈
+¬
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaë ë(
+%2java.lang.Long"__id* *
+backend.models.Visit"
+idÃ
+…
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaë ë( 
+%3java.lang.Long"__id*'*%
+
+otherbackend.models.Visit"
+idéã
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaë ë(!
+%4boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.Long*
+
+%3java.lang.Long2equals(Ljava/lang/Object;)*
+2
+1*¶
+startingBlockÅ
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaà à("Ã
+…
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaá á(
+
+%5"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object∂
+≥
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaà à(!
+objjava.lang.Object"__annotation*
+
+%5*	
+6
+7
+9*ñ
+4Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaê ê("å
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaê ê(
+""*ﬁ
+5Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaè è(Ã
+…
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaè è(
+%1java.lang.Long"__id*'*%
+
+otherbackend.models.Visit"
+id*
+4
+1*°
+6Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaç ç(«
+ƒ
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaç ç(
+otherbackend.models.Visit"__id*
+
+objjava.lang.Object≈
+¬
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaé é(
+%0java.lang.Long"__id* *
+backend.models.Visit"
+id*
+3
+5*ñ
+7Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaå
+ å("å
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaå å(
+""*ñ
+9Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaä
+ ä("å
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaä ä(
+""*ñ
+1Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaì	 ì("å
+Å
+uC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Visit.javaì ì(
+"":
+objjava.lang.ObjectB
+backend.models.Visit

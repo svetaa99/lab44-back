@@ -1,0 +1,51 @@
+
+2backend.models.Report#toString()Ljava/lang/String;Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaR R("1*≠
+1Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS	 S( œ
+Ã
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS# S(/
+%0java.util.List"__id*+*)
+backend.models.Report"
+medicineDays€
+ÿ
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS	 S(/
+%1java.lang.String"__concat*
+Report [medicineDays=*
+
+%0java.util.List÷
+”
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS	 S(B
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, information=–
+Õ
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaSE S(P
+%3java.lang.String"__id***(
+backend.models.Report"
+information‹
+Ÿ
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS	 S(P
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String…
+∆
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS	 S(V
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+]"ù
+Ä
+vC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Report.javaS S(W
+
+%5java.lang.StringB
+backend.models.Report

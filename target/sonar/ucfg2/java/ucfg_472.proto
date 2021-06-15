@@ -1,0 +1,73 @@
+
+Ubackend.controllers.ReportController#checkAllergic(Ljava/lang/Long;Ljava/lang/Long;)Zê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javas s("6*“
+2ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javau u(»
+≈
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javau u("
+allergybackend.models.Medicine"__id*
+""Ê
+„
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javau u("
+allergybackend.models.Medicine"
+__arrayGet*
+
+%2java.util.List*
+""*
+4
+1*¥
+3ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaw w("õ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javaw w(
+""*≠
+4ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javav v(åâ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javav v(#
+%3java.lang.Long"/backend.models.Medicine#getId()Ljava/lang/Long;*$
+"
+allergybackend.models.Medicine2getId()*
+2
+3*∞
+5ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javau u(íè
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javau u(*
+%2java.util.List"5backend.models.Patient#getAllergies()Ljava/util/List;*
+
+pbackend.models.Patient2getAllergies()*
+2*˘
+6ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javat t(Ü
+É
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javat t(*
+%0$backend.services.impl.PatientService"__id*<*:&
+$backend.controllers.ReportController"
+patientServiceˆÛ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javat t(0
+%1backend.models.Patient"Wbackend.services.impl.PatientService#findById(Ljava/lang/Long;)Lbackend/models/Patient;*,
+*
+%0$backend.services.impl.PatientService*
+
+	patientIdjava.lang.Long2findById(Ljava/lang/Long;)Ÿ
+÷
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javat t(1
+pbackend.models.Patient"__id*
+
+%1backend.models.Patient*
+5*¥
+1ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javay	 y("õ
+ê
+ÖC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/ReportController.javay y(
+"":
+	patientIdjava.lang.Long:
+
+medicineIdjava.lang.LongB(&
+$backend.controllers.ReportController

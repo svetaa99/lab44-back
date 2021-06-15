@@ -1,0 +1,300 @@
+
+backend.security.JwtTokenFilter#doFilterInternal(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java$ $(#"startingBlock*Ý
+2‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java>  >(+îë
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java>  >(<
+%17java.util.Collection"`org.springframework.security.core.userdetails.UserDetails#getAuthorities()Ljava/util/Collection;*J
+H
+userDetails9org.springframework.security.core.userdetails.UserDetails2getAuthorities()Ó
+Ð
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java>  >(<
+%15java.util.Collection"__id*
+
+%17java.util.Collection*
+1*Ê
+3‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java> >(á
+Þ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java> >(
+%16java.util.List"#java.util.List#of()Ljava/util/List;*"
+java.util.ListÍ
+Ê
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java> >(
+%15java.util.Collection"__id*
+
+%16java.util.List*
+1*ú
+startingBlock‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java$# &(6ð
+í
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java# #(
+%27"
+__annotate*
+java.lang.Override*2
+0
+request%javax.servlet.http.HttpServletRequestÚ
+×
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java$7 $(>0
+request%javax.servlet.http.HttpServletRequest"__annotation*
+
+%27ò
+ï
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java# #(
+%28"
+__annotate*
+java.lang.Override*4
+2
+response&javax.servlet.http.HttpServletResponseÜ
+Ù
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java%8 %(@2
+response&javax.servlet.http.HttpServletResponse"__annotation*
+
+%28â
+ß
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java# #(
+%29"
+__annotate*
+java.lang.Override*$
+"
+chainjavax.servlet.FilterChainÌ
+É
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java&0 &(5"
+chainjavax.servlet.FilterChain"__annotation*
+
+%29*
+8*Õ
+4‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java6 6(&ñ
+î
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java6 6(&!
+%9backend.security.TokenUtils"__id*5*3!
+backend.security.JwtTokenFilter"
+jwtTokenUtil—”
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java6 6(8
+%10java.lang.String"_backend.security.TokenUtils#getToken(Ljavax/servlet/http/HttpServletRequest;)Ljava/lang/String;*#
+!
+%9backend.security.TokenUtils*2
+0
+request%javax.servlet.http.HttpServletRequest21getToken(Ljavax/servlet/http/HttpServletRequest;)Ð
+Í
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java6 6(9
+tokenStrjava.lang.String"__id*
+
+%10java.lang.Stringô
+ñ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java7" 7(*(
+%11!backend.services.impl.UserService"__id*1*/!
+backend.security.JwtTokenFilter"
+
+userRepoò
+ï
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java8 8()"
+%12backend.security.TokenUtils"__id*5*3!
+backend.security.JwtTokenFilter"
+jwtTokenUtilòï
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java8 8(H
+%13java.lang.String"Vbackend.security.TokenUtils#getUsernameFromToken(Ljava/lang/String;)Ljava/lang/String;*$
+"
+%12backend.security.TokenUtils*
+
+tokenStrjava.lang.String2(getUsernameFromToken(Ljava/lang/String;)õò
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java7" 8(I
+%14backend.models.User"Zbackend.services.impl.UserService#findUserByEmail(Ljava/lang/String;)Lbackend/models/User;**
+(
+%11!backend.services.impl.UserService*
+
+%13java.lang.String2#findUserByEmail(Ljava/lang/String;)ÿ
+ü
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java7 8(JH
+userDetails9org.springframework.security.core.userdetails.UserDetails"__id*
+
+%14backend.models.User*
+2
+3*‡
+5‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java2 2(Ú×
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java2 2(-
+
+%8void"bjavax.servlet.FilterChain#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V*$
+"
+chainjavax.servlet.FilterChain*2
+0
+request%javax.servlet.http.HttpServletRequest*4
+2
+response&javax.servlet.http.HttpServletResponse2GdoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)"–
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java3 3(
+""*š
+6‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java0 0(#ª§
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java0 0(.
+%3java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*
+
+headerjava.lang.String*
+ 2split(Ljava/lang/String;)×
+Ô
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java0 0(1
+%4java.lang.String"
+__arrayGet*
+
+%3java.lang.String[]*2öó
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java0 0(8
+%5java.lang.String")java.lang.String#trim()Ljava/lang/String;*
+
+%4java.lang.String2trim()Ì
+É
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java0 0(9
+tokenjava.lang.String"__id*
+
+%5java.lang.Stringñ
+î
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java1 1(!
+%6backend.security.TokenUtils"__id*5*3!
+backend.security.JwtTokenFilter"
+jwtTokenUtil»¸
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java1 1()
+%7boolean"9backend.security.TokenUtils#validate(Ljava/lang/String;)Z*#
+!
+%6backend.security.TokenUtils*
+
+tokenjava.lang.String2validate(Ljava/lang/String;)*
+4
+5*‡
+7‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java, ,(Ú×
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java, ,(-
+
+%2void"bjavax.servlet.FilterChain#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V*$
+"
+chainjavax.servlet.FilterChain*2
+0
+request%javax.servlet.http.HttpServletRequest*4
+2
+response&javax.servlet.http.HttpServletResponse2GdoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)"–
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java- -(
+""*“
+8‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java) )(%·
+´
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java)0 )(I
+%0java.lang.String"__id*
+""íê
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java) )(J
+%1java.lang.String"Ujavax.servlet.http.HttpServletRequest#getHeader(Ljava/lang/String;)Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest*
+
+%0java.lang.String2getHeader(Ljava/lang/String;)Í
+Ê
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java) )(K
+headerjava.lang.String"__id*
+
+%1java.lang.String*
+6
+7*«
+0 "£
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaH H(
+implicit return*¤#
+1‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java; ?(º·
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java;! ;(DV
+%18Oorg.springframework.security.authentication.UsernamePasswordAuthenticationToken"Oorg.springframework.security.authentication.UsernamePasswordAuthenticationTokenû
+ø
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java; ?(
+%19"“org.springframework.security.authentication.UsernamePasswordAuthenticationToken#<init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Collection;)V*X
+V
+%18Oorg.springframework.security.authentication.UsernamePasswordAuthenticationToken*J
+H
+userDetails9org.springframework.security.core.userdetails.UserDetails*
+""*
+
+%15java.util.CollectionÔ
+Ñ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.java: ?(a
+authenticationOorg.springframework.security.authentication.UsernamePasswordAuthenticationToken"__id*X
+V
+%18Oorg.springframework.security.authentication.UsernamePasswordAuthenticationToken¸µ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaB B(.U
+%20Norg.springframework.security.web.authentication.WebAuthenticationDetailsSource"Norg.springframework.security.web.authentication.WebAuthenticationDetailsSourceË
+È
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaB B(0
+%21"Xorg.springframework.security.web.authentication.WebAuthenticationDetailsSource#<init>()V*W
+U
+%20Norg.springframework.security.web.authentication.WebAuthenticationDetailsSource÷ô
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaB B(FO
+%22Horg.springframework.security.web.authentication.WebAuthenticationDetails"Îorg.springframework.security.web.authentication.WebAuthenticationDetailsSource#buildDetails(Ljavax/servlet/http/HttpServletRequest;)Lorg/springframework/security/web/authentication/WebAuthenticationDetails;*W
+U
+%20Norg.springframework.security.web.authentication.WebAuthenticationDetailsSource*2
+0
+request%javax.servlet.http.HttpServletRequest25buildDetails(Ljavax/servlet/http/HttpServletRequest;)ßÜ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaA C(	
+%23void"gorg.springframework.security.authentication.AbstractAuthenticationToken#setDetails(Ljava/lang/Object;)V*c
+a
+authenticationOorg.springframework.security.authentication.UsernamePasswordAuthenticationToken*Q
+O
+%22Horg.springframework.security.web.authentication.WebAuthenticationDetails2setDetails(Ljava/lang/Object;)¢
+Ÿ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaE E(*@
+%249org.springframework.security.core.context.SecurityContext"‡org.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*C"A
+?org.springframework.security.core.context.SecurityContextHolder‘Ž
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaE E(L
+%25void"€org.springframework.security.core.context.SecurityContext#setAuthentication(Lorg/springframework/security/core/Authentication;)V*B
+@
+%249org.springframework.security.core.context.SecurityContext*c
+a
+authenticationOorg.springframework.security.authentication.UsernamePasswordAuthenticationToken2EsetAuthentication(Lorg/springframework/security/core/Authentication;)ÛØ
+‹
+€C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/security/JwtTokenFilter.javaG G()
+%26void"bjavax.servlet.FilterChain#doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V*$
+"
+chainjavax.servlet.FilterChain*2
+0
+request%javax.servlet.http.HttpServletRequest*4
+2
+response&javax.servlet.http.HttpServletResponse2GdoFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)*
+0:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponse:"
+chainjavax.servlet.FilterChainB#!
+backend.security.JwtTokenFilter

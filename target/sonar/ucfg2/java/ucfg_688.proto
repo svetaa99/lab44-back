@@ -1,0 +1,42 @@
+
+Xbackend.services.impl.ReportService#save(Lbackend/models/Report;)Lbackend/models/Report;è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java ("startingBlock*‘
+startingBlockè
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java (ﬂ
+‹
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java (
+
+%2"
+__annotate*
+java.lang.Override*
+
+objbackend.models.Report…
+∆
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java (
+objbackend.models.Report"__annotation*
+
+%2*
+1*–
+1è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java	 (á
+Ñ
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java	 (+
+%0%backend.repositories.ReportRepository"__id*=*;%
+#backend.services.impl.ReportService"
+reportRepository˙˜
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java	 (#
+%1backend.models.Report"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*-
++
+%0%backend.repositories.ReportRepository*
+
+objbackend.models.Report2save(Ljava/lang/Object;)"±
+è
+ÑC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/ReportService.java ($
+
+%1backend.models.Report:
+objbackend.models.ReportB'%
+#backend.services.impl.ReportService

@@ -1,0 +1,430 @@
+
+Œbackend.controllers.DoctorTermsController#saveNewTerm(Lbackend/models/DoctorTerms;Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javav v(*"startingBlock*À	
+2—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŽ% Ž(1×
+Ô
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŽ3 Ž(@*
+%26#org.springframework.http.HttpStatus"__id*
+""öó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŽ Ž($.
+%27'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityþ
+û
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŽ
+ Ž(A
+%28"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%27'org.springframework.http.ResponseEntity*
+
+Taken term*,
+*
+%26#org.springframework.http.HttpStatus"Ì
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŽ Ž(B0
+.
+%27'org.springframework.http.ResponseEntity*Ë	
+3—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŠ& Š()×
+Ô
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŠ+ Š(8*
+%23#org.springframework.http.HttpStatus"__id*
+""öó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŠ Š(%.
+%24'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity‰
+†
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŠ Š(9
+%25"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%24'org.springframework.http.ResponseEntity*
+
+retjava.lang.String*,
+*
+%23#org.springframework.http.HttpStatus"Ì
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaŠ Š(:0
+.
+%24'org.springframework.http.ResponseEntity*ÿ
+startingBlock•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javav* v(s^
+\
+
+__unknown_file (
+%37"__id*3*1
+%
+newTermbackend.models.DoctorTerms"
+finish]
+[
+
+__unknown_file (
+%38"__id*2*0
+%
+newTermbackend.models.DoctorTerms"
+startõ
+ò
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javau u(;
+%39"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+%37ð
+í
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javav+ v(7
+%40"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%37î
+ë
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javavD v(K1
+%
+newTermbackend.models.DoctorTerms"
+finish"__annotation*
+
+%39*
+
+%40õ
+ò
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javau u(;
+%41"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+%38ð
+í
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javav+ v(7
+%42"
+__annotate*75
+3org.springframework.web.bind.annotation.RequestBody*
+
+%38í
+ê
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javavD v(K0
+%
+newTermbackend.models.DoctorTerms"
+start"__annotation*
+
+%41*
+
+%42‰
+†
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javau u(;
+%43"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+visitIdjava.lang.LongÍ
+Ê
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javavk v(r
+visitIdjava.lang.Long"__annotation*
+
+%43*
+10*à
+4—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java…	 …(Ë
+È
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java…	 …(
+whbackend.models.WorkHours"__id*
+""ê
+ç
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java…	 …(
+whbackend.models.WorkHours"
+__arrayGet*
+
+whsjava.util.List*
+""*
+3
+5*‹
+5—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java† †(©¦
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java† †(
+%16java.time.LocalTime"<backend.models.WorkHours#getStartTime()Ljava/time/LocalTime;* 
+
+whbackend.models.WorkHours2getStartTime()’
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java† †((
+%17java.lang.String"0java.time.LocalTime#toString()Ljava/lang/String;*
+
+%16java.time.LocalTime2
+toString()ö
+ó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java† †((
+%18java.lang.String"__concat*
+
+retjava.lang.String*
+
+%17java.lang.String×
+Ô
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java† †((
+retjava.lang.String"__id*
+
+%18java.lang.Stringâ
+ß
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java‡ ‡(
+%19java.lang.String"__concat*
+
+retjava.lang.String*
+-×
+Ô
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java‡ ‡(
+retjava.lang.String"__id*
+
+%19java.lang.String«¨
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaˆ ˆ(
+%20java.time.LocalTime"=backend.models.WorkHours#getFinishTime()Ljava/time/LocalTime;* 
+
+whbackend.models.WorkHours2getFinishTime()’
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaˆ ˆ()
+%21java.lang.String"0java.time.LocalTime#toString()Ljava/lang/String;*
+
+%20java.time.LocalTime2
+toString()ö
+ó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaˆ ˆ()
+%22java.lang.String"__concat*
+
+retjava.lang.String*
+
+%21java.lang.String×
+Ô
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaˆ ˆ()
+retjava.lang.String"__id*
+
+%22java.lang.String*
+4*ô
+7—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒ ƒ(#
+
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒ ƒ(#-
+%11&backend.services.impl.WorkHoursService"__id*<*:+
+)backend.controllers.DoctorTermsController"
+	whService
+Œ
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒY ƒ(e)
+%12"backend.services.impl.VisitService"__id*?*=+
+)backend.controllers.DoctorTermsController"
+visitServiceõò
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒY ƒ(w
+%13backend.models.Visit"Sbackend.services.impl.VisitService#findById(Ljava/lang/Long;)Lbackend/models/Visit;*+
+)
+%12"backend.services.impl.VisitService*
+
+visitIdjava.lang.Long2findById(Ljava/lang/Long;)—”
+˜
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒY ƒ(…
+%14java.lang.Long"2backend.models.Visit#getPharmacy()Ljava/lang/Long;*
+
+%13backend.models.Visit2getPharmacy()ñî
+˜
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒ ƒ(†
+%15java.util.List"ƒbackend.services.impl.WorkHoursService#findWorkingHoursForDoctorByIdAndPharmacyId(Ljava/lang/Long;Ljava/lang/Long;)Ljava/util/List;*/
+-
+%11&backend.services.impl.WorkHoursService*
+
+doctorIdjava.lang.Long*
+
+%14java.lang.Long2LfindWorkingHoursForDoctorByIdAndPharmacyId(Ljava/lang/Long;Ljava/lang/Long;)Ô
+Ñ
+˜
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaƒ ƒ(‡
+whsjava.util.List"__id*
+
+%15java.util.ListÍ
+Ê
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java„ „(
+retjava.lang.String"__id*
+Work hours|*
+4*ê
+8—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java€ €(š
+—
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java€ €(.
+%9(backend.services.impl.DoctorTermsService"__id*E*C+
+)backend.controllers.DoctorTermsController"
+doctorTermsService¨¥
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java€ €($!
+%10backend.models.DoctorTerms"gbackend.services.impl.DoctorTermsService#save(Lbackend/models/DoctorTerms;)Lbackend/models/DoctorTerms;*0
+.
+%9(backend.services.impl.DoctorTermsService*'
+%
+newTermbackend.models.DoctorTerms2"save(Lbackend/models/DoctorTerms;)*
+1*ˆ
+9•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java (â
+ß
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java ($
+%8boolean"^backend.controllers.DoctorTermsController#checkIfInWorkingHours(Lbackend/models/DoctorTerms;)Z*-+
+)backend.controllers.DoctorTermsController*'
+%
+newTermbackend.models.DoctorTerms*
+7
+8*ý
+10•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javax x(&«
+¨
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javax x(3?
+%09org.springframework.security.core.context.SecurityContext"‡org.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*C"A
+?org.springframework.security.core.context.SecurityContextHolder¬©
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javax x(G6
+%10org.springframework.security.core.Authentication"org.springframework.security.core.context.SecurityContext#getAuthentication()Lorg/springframework/security/core/Authentication;*A
+?
+%09org.springframework.security.core.context.SecurityContext2getAuthentication()­ª
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javax x(Q
+%2java.lang.String"3java.security.Principal#getName()Ljava/lang/String;*8
+6
+%10org.springframework.security.core.Authentication2	getName()Ö
+Ó
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javax x(R
+tokenjava.lang.String"__id*
+
+%2java.lang.StringŠ
+‡
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javay y('
+%3!backend.services.impl.UserService"__id*>*<+
+)backend.controllers.DoctorTermsController"
+userServiceÿü
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javay y(-
+%4backend.models.User"Zbackend.services.impl.UserService#findUserByEmail(Ljava/lang/String;)Lbackend/models/User;*)
+'
+%3!backend.services.impl.UserService*
+
+tokenjava.lang.String2#findUserByEmail(Ljava/lang/String;)Ø
+Õ
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javay y(.
+ubackend.models.User"__id*
+
+%4backend.models.Userƒ€
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaz z(
+%5java.lang.Long"+backend.models.User#getId()Ljava/lang/Long;*
+
+ubackend.models.User2getId()Õ
+Ò
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.javaz z(
+doctorIdjava.lang.Long"__id*
+
+%5java.lang.LongÈÅ
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java| |(
+
+%6void"9backend.models.DoctorTerms#setDoctorId(Ljava/lang/Long;)V*'
+%
+newTermbackend.models.DoctorTerms*
+
+doctorIdjava.lang.Long2setDoctorId(Ljava/lang/Long;)Ý
+Ú
+•
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java~ ~(
+%7boolean"Ybackend.controllers.DoctorTermsController#checkIfTakenTerm(Lbackend/models/DoctorTerms;)Z*-+
+)backend.controllers.DoctorTermsController*'
+%
+newTermbackend.models.DoctorTerms*
+2
+9*«
+1—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java (/›
+˜
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java0 (B/
+%29(backend.services.impl.DoctorTermsService"__id*E*C+
+)backend.controllers.DoctorTermsController"
+doctorTermsServiceŽ‹
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java0 (a
+%30java.util.List"_backend.services.impl.DoctorTermsService#findByDoctorIdEquals(Ljava/lang/Long;)Ljava/util/List;*1
+/
+%29(backend.services.impl.DoctorTermsService*
+
+doctorIdjava.lang.Long2&findByDoctorIdEquals(Ljava/lang/Long;)‰
+†
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java (k
+%31java.util.List"nbackend.controllers.DoctorTermsController#filterAndSortTerms(Ljava/util/List;Ljava/lang/Long;)Ljava/util/List;*-+
+)backend.controllers.DoctorTermsController*
+
+%30java.util.List*
+
+visitIdjava.lang.LongÖ
+Ó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java (l
+retValjava.util.List"__id*
+
+%31java.util.Listö
+ó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java’$ ’(%
+%32com.google.gson.Gson"__id*4*2+
+)backend.controllers.DoctorTermsController"
+gÐÍ
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java’$ ’(4
+%33java.lang.String"Acom.google.gson.Gson#toJson(Ljava/lang/Object;)Ljava/lang/String;*
+
+%32com.google.gson.Gson*
+
+retValjava.util.List2toJson(Ljava/lang/Object;)×
+Ô
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java’6 ’(C*
+%34#org.springframework.http.HttpStatus"__id*
+""öó
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java’ ’(#.
+%35'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity‰
+†
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java’	 ’(D
+%36"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%35'org.springframework.http.ResponseEntity*
+
+%33java.lang.String*,
+*
+%34#org.springframework.http.HttpStatus"Ì
+—
+ŠC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/DoctorTermsController.java’ ’(E0
+.
+%35'org.springframework.http.ResponseEntity:%
+newTermbackend.models.DoctorTerms:
+visitIdjava.lang.LongB-+
+)backend.controllers.DoctorTermsController

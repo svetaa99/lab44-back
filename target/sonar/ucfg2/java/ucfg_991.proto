@@ -1,0 +1,16 @@
+
+5backend.models.Penalty#getPatientId()Ljava/lang/Long;Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Penalty.java) )("1*˜
+1Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Penalty.java*	 *(Œ
+À
+Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Penalty.java*	 *(
+%0java.lang.Long"__id*)*'
+backend.models.Penalty"
+	patientId"ú
+Å
+wC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/Penalty.java* *(
+
+%0java.lang.LongB
+backend.models.Penalty

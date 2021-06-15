@@ -1,0 +1,104 @@
+
+6backend.models.DoctorTerms#equals(Ljava/lang/Object;)ZÖ
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javad d("startingBlock*û
+2Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javan
+ n("ê
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javan n(
+""*”
+3Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javam m(œ
+Ã
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javam m(
+%2java.lang.Long"__id*&*$
+backend.models.DoctorTerms"
+id÷
+”
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javam m( 
+%3java.lang.Long"__id*-*+
+#
+otherbackend.models.DoctorTerms"
+idíè
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javam m(!
+%4boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*
+
+%2java.lang.Long*
+
+%3java.lang.Long2equals(Ljava/lang/Object;)*
+2
+1*≤
+startingBlockÖ
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javad d("–
+Õ
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javac c(
+
+%5"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Object∫
+∑
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javad d(!
+objjava.lang.Object"__annotation*
+
+%5*	
+6
+7
+9*û
+4Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javal l("ê
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javal l(
+""*Ï
+5Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javak k(÷
+”
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javak k(
+%1java.lang.Long"__id*-*+
+#
+otherbackend.models.DoctorTerms"
+id*
+4
+1*π
+6Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javai$ i('—
+Œ
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javai i((#
+otherbackend.models.DoctorTerms"__id*
+
+objjava.lang.Objectœ
+Ã
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaj j(
+%0java.lang.Long"__id*&*$
+backend.models.DoctorTerms"
+id*
+3
+5*û
+7Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javah
+ h("ê
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javah h(
+""*û
+9Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaf
+ f("ê
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javaf f(
+""*û
+1Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javao	 o("ê
+Ö
+{C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/models/DoctorTerms.javao o(
+"":
+objjava.lang.ObjectB
+backend.models.DoctorTerms

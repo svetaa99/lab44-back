@@ -1,0 +1,42 @@
+
+^backend.services.impl.VacationService#save(Lbackend/models/Vacation;)Lbackend/models/Vacation;ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java) )("startingBlock*ﬁ
+startingBlockë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java) )(#„
+‡
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java( ((
+
+%2"
+__annotate*
+java.lang.Override* 
+
+objbackend.models.VacationÕ
+ 
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java) )("
+objbackend.models.Vacation"__annotation*
+
+%2*
+1*Ê
+1ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java*	 *(è
+å
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java*	 *(-
+%0'backend.repositories.VacationRepository"__id*A*?'
+%backend.services.impl.VacationService"
+vacationRepositoryÇˇ
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java*	 *(%
+%1backend.models.Vacation"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*/
+-
+%0'backend.repositories.VacationRepository* 
+
+objbackend.models.Vacation2save(Ljava/lang/Object;)"µ
+ë
+ÜC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VacationService.java* *(&
+
+%1backend.models.Vacation:
+objbackend.models.VacationB)'
+%backend.services.impl.VacationService

@@ -1,0 +1,284 @@
+
+backend.controllers.LabAdminController#removeDermatologistFromPharmacy(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¤ ¤(>"startingBlock*Ï	
+2”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¯% ¯(OÔ
+Ñ
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¯Q ¯(g*
+%13#org.springframework.http.HttpStatus"__id*
+""óð
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¯ ¯($.
+%14'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity™
+–
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¯
+ ¯(h
+%15"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*0
+.
+%14'org.springframework.http.ResponseEntity*,*
+(Dermatologist not found in this pharmacy*,
+*
+%13#org.springframework.http.HttpStatus"É
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¯ ¯(i0
+.
+%14'org.springframework.http.ResponseEntity*ü
+3”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java® ®(¥¢
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java® ®(
+%11java.util.List"<backend.models.Dermatologist#getPharmacies()Ljava/util/List;*#
+!
+dbackend.models.Dermatologist2getPharmacies()¯¬
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java® ®($
+%12boolean",java.util.List#contains(Ljava/lang/Object;)Z*
+
+%11java.util.List*
+
+pbackend.models.Pharmacy2contains(Ljava/lang/Object;)*
+2
+1*‡
+startingBlock”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¤> ¤(a‰
+†
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java£ £()
+%33"
+__annotate*<:
+8org.springframework.security.access.prepost.PreAuthorize*
+
+doctorIdjava.lang.LongÍ
+Ê
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¤X ¤(`
+doctorIdjava.lang.Long"__annotation*
+
+%33*
+5*Å	
+4”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java«% «(JÓ
+Ð
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java«L «(b)
+%8#org.springframework.http.HttpStatus"__id*
+""òï
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java« «($-
+%9'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity’
+
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java«
+ «(c
+%10"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%9'org.springframework.http.ResponseEntity*'%
+#No dermatologist with this id found*+
+)
+%8#org.springframework.http.HttpStatus"È
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java« «(d/
+-
+%9'org.springframework.http.ResponseEntity*ó
+5”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¥ ¥(&ª
+§
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¥ ¥(3?
+%09org.springframework.security.core.context.SecurityContext"‡org.springframework.security.core.context.SecurityContextHolder#getContext()Lorg/springframework/security/core/context/SecurityContext;*C"A
+?org.springframework.security.core.context.SecurityContextHolder«¨
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¥ ¥(G6
+%10org.springframework.security.core.Authentication"org.springframework.security.core.context.SecurityContext#getAuthentication()Lorg/springframework/security/core/Authentication;*A
+?
+%09org.springframework.security.core.context.SecurityContext2getAuthentication()¬©
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¥ ¥(Q
+%2java.lang.String"3java.security.Principal#getName()Ljava/lang/String;*8
+6
+%10org.springframework.security.core.Authentication2	getName()Õ
+Ò
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¥ ¥(R
+tokenjava.lang.String"__id*
+
+%2java.lang.String„
+
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¦ ¦('
+%3!backend.services.ILabAdminService"__id*9*7(
+&backend.controllers.LabAdminController"
+	laServiceþû
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¦ ¦(,
+%4backend.models.LabAdmin"Zbackend.services.ILabAdminService#findByEmail(Ljava/lang/String;)Lbackend/models/LabAdmin;*)
+'
+%3!backend.services.ILabAdminService*
+
+tokenjava.lang.String2findByEmail(Ljava/lang/String;)à
+Ý
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¦ ¦(-
+labackend.models.LabAdmin"__id*
+
+%4backend.models.LabAdmin©¦
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java§ §(
+%5backend.models.Pharmacy">backend.models.LabAdmin#getPharmacy()Lbackend/models/Pharmacy;*
+
+labackend.models.LabAdmin2getPharmacy()ß
+Ü
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java§ §( 
+pbackend.models.Pharmacy"__id*
+
+%5backend.models.Pharmacy”
+‘
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java© ©((,
+%6&backend.services.IDermatologistService"__id*D*B(
+&backend.controllers.LabAdminController"
+dermatologistServiceðí
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java© ©(;"
+%7backend.models.Dermatologist"Fbackend.services.IService#findById(Ljava/lang/Long;)Ljava/lang/Object;*.
+,
+%6&backend.services.IDermatologistService*
+
+doctorIdjava.lang.Long2findById(Ljava/lang/Long;)é
+æ
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java© ©(<!
+dbackend.models.Dermatologist"__id*$
+"
+%7backend.models.Dermatologist*
+3
+4*ð.
+1”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java² ²(£ 
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java² ²(
+%16java.util.List";backend.models.Pharmacy#getDermatologists()Ljava/util/List;*
+
+pbackend.models.Pharmacy2getDermatologists()°­
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java² ²(!
+%17boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+%16java.util.List*#
+!
+dbackend.models.Dermatologist2remove(Ljava/lang/Object;)¥¢
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java³ ³(
+%18java.util.List"<backend.models.Dermatologist#getPharmacies()Ljava/util/List;*#
+!
+dbackend.models.Dermatologist2getPharmacies()«¨
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java³ ³(
+%19boolean"*java.util.List#remove(Ljava/lang/Object;)Z*
+
+%18java.util.List*
+
+pbackend.models.Pharmacy2remove(Ljava/lang/Object;)•
+’
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.javaµ µ(-
+%20&backend.services.IDermatologistService"__id*D*B(
+&backend.controllers.LabAdminController"
+dermatologistServiceõò
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.javaµ µ(#
+%21backend.models.Dermatologist"Dbackend.services.IService#save(Ljava/lang/Object;)Ljava/lang/Object;*/
+-
+%20&backend.services.IDermatologistService*#
+!
+dbackend.models.Dermatologist2save(Ljava/lang/Object;)‹
+ˆ
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¶ ¶((
+%22!backend.services.IPharmacyService"__id*?*=(
+&backend.controllers.LabAdminController"
+pharmacyServiceæã
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¶ ¶(
+%23backend.models.Pharmacy"Dbackend.services.IService#save(Ljava/lang/Object;)Ljava/lang/Object;**
+(
+%22!backend.services.IPharmacyService*
+
+pbackend.models.Pharmacy2save(Ljava/lang/Object;)Š
+‡
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¸ ¸($-
+%24&backend.services.impl.WorkHoursService"__id*9*7(
+&backend.controllers.LabAdminController"
+	whService‹ˆ
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¸Z ¸(c
+%25java.lang.Long"/backend.models.Pharmacy#getId()Ljava/lang/Long;*
+
+pbackend.models.Pharmacy2getId()íê
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¸ ¸(d
+%26java.util.List"ƒbackend.services.impl.WorkHoursService#findWorkingHoursForDoctorByIdAndPharmacyId(Ljava/lang/Long;Ljava/lang/Long;)Ljava/util/List;*/
+-
+%24&backend.services.impl.WorkHoursService*
+
+doctorIdjava.lang.Long*
+
+%25java.lang.Long2LfindWorkingHoursForDoctorByIdAndPharmacyId(Ljava/lang/Long;Ljava/lang/Long;)Ó
+Ð
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¸ ¸(e
+whListjava.util.List"__id*
+
+%26java.util.Listç
+ä
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¹ ¹(
+%27backend.models.WorkHours"
+__arrayGet*
+
+whListjava.util.List*2 ã
+à
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java¹ ¹(
+whbackend.models.WorkHours"__id*!
+
+%27backend.models.WorkHoursŠ
+‡
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java» »(-
+%28&backend.services.impl.WorkHoursService"__id*9*7(
+&backend.controllers.LabAdminController"
+	whServiceêç
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java» »(
+%29void"Jbackend.services.impl.WorkHoursService#delete(Lbackend/models/WorkHours;)V*/
+-
+%28&backend.services.impl.WorkHoursService* 
+
+whbackend.models.WorkHours2"delete(Lbackend/models/WorkHours;)Ô
+Ñ
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java½$ ½(1*
+%30#org.springframework.http.HttpStatus"__id*
+""óð
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java½ ½(#.
+%31'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÙ
+Ö
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java½	 ½(2
+%32"Vorg.springframework.http.ResponseEntity#<init>(Lorg/springframework/http/HttpStatus;)V*0
+.
+%31'org.springframework.http.ResponseEntity*,
+*
+%30#org.springframework.http.HttpStatus"É
+”
+‡C:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/controllers/LabAdminController.java½ ½(30
+.
+%31'org.springframework.http.ResponseEntity:
+doctorIdjava.lang.LongB*(
+&backend.controllers.LabAdminController

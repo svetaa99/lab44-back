@@ -1,0 +1,53 @@
+
+Ybackend.services.impl.VisitService#findByDoctorIdFuture(Ljava/lang/Long;)Ljava/util/List;Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java< <(("1*Ÿ
+1Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java=  =(/ƒ
+€
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java=  =(/*
+%0$backend.repositories.VisitRepository"__id*;*9$
+"backend.services.impl.VisitService"
+visitRepositoryûø
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java=  =(N
+%1java.util.List"[backend.repositories.VisitRepository#findByDoctorIdEquals(Ljava/lang/Long;)Ljava/util/List;*,
+*
+%0$backend.repositories.VisitRepository*
+
+doctorIdjava.lang.Long2&findByDoctorIdEquals(Ljava/lang/Long;)Õ
+Ò
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java= =(O!
+allDoctorVisitsjava.util.List"__id*
+
+%1java.util.Listš—
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java?	 ?(!
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*#
+!
+allDoctorVisitsjava.util.List2stream()ÝÚ
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java?	 ?(Y
+%3java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)™
+–
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java?b ?(u 
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectorsçä
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java?	 ?(v
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"©
+Ž
+ƒC:/Users/Lenovo/Documents/Faks/3_Godina/6_Semestar/ISA/Projekat/lab44/backend/src/main/java/backend/services/impl/VisitService.java? ?(w
+
+%5java.util.List:
+doctorIdjava.lang.LongB&$
+"backend.services.impl.VisitService

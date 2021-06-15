@@ -1,0 +1,7 @@
+organization=svetaa99
+projectKey=svetaa99_lab44
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.21080
+dashboardUrl=https://sonarcloud.io/dashboard?id=svetaa99_lab44
+ceTaskId=AXoPhV3uafFhSUsoGqzj
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXoPhV3uafFhSUsoGqzj
